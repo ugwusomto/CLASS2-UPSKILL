@@ -1,0 +1,361 @@
+*{
+ box-sizing: border-box;
+}
+
+ul,li,h1,p,body{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+ margin: 0px;
+ padding: 0px;
+}
+
+.container{
+   width:100%;
+   min-height: 500px;
+}
+
+.container .header{
+  width: 100%;
+  min-height: 50px;
+  /* background-color: red; */
+  text-align: center;
+  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 3.6);
+}
+
+.container .header .logo{
+  width: 20%;
+  height:60px;
+  text-align: left;
+  /* background-color: green; */
+  display: inline-block;
+  vertical-align: top;
+  color: #05479C;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.container .header .logo h1{
+   padding: 0px;
+   margin: 0px;
+}
+
+.container .header .navigation{
+ width:70%;
+ height: 60px;
+ /* background-color: orange; */
+ display: inline-block;
+ vertical-align: top;
+ padding-top: 10px;
+}
+
+.container .header .navigation ul{
+  list-style-type: none;
+  /* background-color: purple; */
+  padding: 0px;
+  margin: 0px;
+}
+
+.container .header .navigation ul li{
+  padding: 8px;
+  display: inline-block;
+  background-color: #cccccc;
+  width: 16%;
+  height: 35px;
+  font-size: 17px;
+  transition:all 1s;
+
+}
+
+
+.container .header .navigation ul li a{
+
+    color: #05479C;
+    text-decoration:none;
+    transition:all 1s;
+}
+
+.container .header .navigation ul li:hover{
+  background-color: #05479C;
+}
+
+.container .header .navigation ul li:hover a{
+  color: #fff;
+}
+
+
+/* slider section */
+.container .slider{
+   width: 80%;
+   height: 300px;
+   background-color: #05479C;
+   margin: 16px auto;
+   padding-top: 92px;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.container .slider p{
+  width: 80%;
+  height:80px;
+ 
+  color: #fff;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+/* body section */
+.container .body{
+   width: 100%;
+   min-height: 70px;
+   padding:10px;
+   text-align: center;
+}
+
+.container .body .box{
+     width: 23%;
+     height:250px;
+     /* border: 5px solid #000; */
+     display: inline-block;
+     vertical-align: top;
+     margin: 7px;
+     transition:all 1s;
+     border-radius: 10px;
+     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+.container .body .box:hover{
+ 
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.container .body .box a{
+   text-decoration: none;
+   color: #05479C;
+
+}
+.container .body .box .image{
+   width: 100%;
+   height: 150px;
+   overflow: hidden;
+}
+
+.container .body .box .image img{
+    width: 100%;
+    /* height: 60px; */
+    border-radius: 10px;
+
+}
+
+.container .body .box .text{
+   padding: 10px 5px;
+   text-align: center;
+   font-size: 18px;
+}
+
+.container .body .link_btn{
+  display: block;
+  width: 100px;
+  height: 40px;
+  margin: 10px auto;
+  padding-top: 9px;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #05479C;
+  color: #ffffff;
+  border-radius: 7px;
+  transition: all 1s;
+}
+
+.container .body .link_btn:hover{
+   border: 2px solid #05479C;
+   background-color: #fff;
+   color: #05479C;
+}
+
+/* footer  section  */
+.container .footer{
+   width: 100%;
+   height: 200px;
+   background-color: #000000;
+   color: #ffffff;
+   text-align: center;
+   font-size: 25px;
+   padding-top: 50px;
+}
+
+/* contact section */
+.container .contact{
+    width:90%;
+    min-height: 300px;
+    /* border: 2px solid #000000; */
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #05479C;
+}
+
+.container .contact h1{
+    color: #fff;
+    font-family: cursive;
+}
+
+
+.container .contact form{
+     width: 80%;
+     min-height: 200px;
+     padding: 30px;
+     background-color: #fff;
+     margin: 20px auto;
+     border-radius: 15px;
+}
+
+.container .contact form .form-control{
+  text-align: left;
+}
+
+.container .contact form .form-control input{
+     display: block;
+     width: 100%;
+     height: 40px;
+     margin: 20px auto;
+     font-size: 20px;
+     padding: 8px;
+}
+
+.container .contact form .form-control select{
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin: 20px auto;
+  font-size: 20px;
+  padding: 8px;
+}
+
+.container .contact form .form-control textarea{
+  display: block;
+  width: 100%;
+  height: 150px;
+  resize: none;
+  margin: 20px auto;
+  font-size: 20px;
+  padding: 8px;
+}
+
+.container .contact form .form-control input[type="radio"]{
+    width:15px;
+    height:15px;
+    display: inline;
+}
+  
+.container .contact form .form-control input[type="checkbox"]{
+  width:15px;
+  height:15px;
+  display: inline;
+}
+
+.container .contact form .form-control input[type="submit"]{
+  width:150px;
+  background-color: #05479C;
+  color: #fff;
+  border: none;
+}
+
+
+/* slider section */
+.container .slider_bg{
+  width: 80%;
+  height: 300px;
+  background-image: url("https://previews.123rf.com/images/rawpixel/rawpixel1706/rawpixel170605711/79653332-group-of-students-smiling-and-standing-together.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  margin: 16px auto;
+  padding-top: 92px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+/* slider bg */
+.container .slider_bg p{
+ width: 80%;
+ height:80px;
+
+ color: #000000;
+ margin: auto;
+ text-align: center;
+ font-size: 30px;
+ padding-top: 20px;
+}
+
+
+/* blog info section */
+.container .blog_info{
+   width: 100%;
+   min-height: 400px;
+   padding: 20px;
+   background-color: #000000;
+}
+
+.container .blog_info .content{
+   width: 78%;
+   min-height: 300px;
+   padding: 20px;
+   display: inline-block;
+   vertical-align: top;
+   background-color: #ffffff;
+   margin:3px;
+   border-radius: 20px;
+}
+
+.container .blog_info .content h1{
+   text-align: center;
+   font-size: 35px;
+
+}
+
+.container .blog_info .content .image{
+   width: 100%
+}
+
+.container .blog_info .content .image img{
+  width: 100%
+}
+
+
+.container .blog_info .content .text{
+    width: 100%;
+    padding: 20px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 30px;
+    
+}
+
+.container .blog_info .content .text p{
+   margin-bottom: 12px;
+}  
+
+
+.container .blog_info .ads{
+  width: 20%;
+  min-height: 300px;
+  padding: 20px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #ffffff;
+  margin:3px;
+  border-radius: 20px;
+
+}
+
+.container .blog_info .ads img{
+    width: 100%;
+}
+
+.container .content .video video{
+   width: 100%;
+   height: 300px;
+}
