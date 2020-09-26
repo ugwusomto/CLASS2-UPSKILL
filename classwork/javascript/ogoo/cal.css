@@ -1,0 +1,89 @@
+.container{
+    width: 40%;
+    height: 600px;
+    background-color: rgb(223, 205, 205);
+    border: 2px black solid;
+    margin: 0px auto;
+
+    
+}
+form{
+    width: 250px;
+    height: 124px;
+    margin: 5px auto;
+}
+
+input{
+    width: 250px;
+    height: 50px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+   border-radius: 6px;
+   box-shadow: 0 6px 6px rgba(0,0,0,0.6);
+}
+.data{
+    width: 80%;
+    min-height: 550px;
+    background-color: white;
+    margin: -28px auto;
+    border-radius: 44px 44px ;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.6);
+    
+    
+}
+h2{
+    text-align: center;
+    color: rgb(223, 205, 205); ;
+}
+.display{
+    width: 100%;
+    min-height: 100px;
+    background-color: red;
+    margin: 40px auto;
+    border-radius: 44px 44px 0px 0px;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.6);
+}
+    
+
+
+#output{
+    width: 200px;
+    height: 50px;
+    margin: 10px auto;
+    background-color: rgb(223, 205, 205);
+    text-align: center;
+    margin-bottom: 15px;
+    border: none;
+    padding: 10px;
+   border-radius: 6px;
+   box-shadow: 0 6px 6px rgba(0,0,0,0.0);
+}
+
+
+.row{
+    width: 100%;
+   background-color: white;
+   border-radius: 50px;
+   
+}
+button{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: rgb(223, 205, 205);
+    border: none;
+    margin-left: 45px;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+button :hover{
+ background-color:rgb(223, 205, 205); 
+ font-style: italic;
+}
+.equal{
+    background-color:red ;
+    color: white;
+}

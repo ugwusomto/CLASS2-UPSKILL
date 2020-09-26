@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Working with javascript events</title>
+ <style>
+   .container{
+    width:70%;
+    height: 300px;
+    border: 2px solid #000;
+    margin: 10px auto;
+    padding: 5px;
+   }
+
+   .container .form-control{
+       width: 100%;
+   }
+   .container .form-control input{
+      width: 80%;
+      height: 40px;
+      padding: 5px;
+      font-size: 18px;
+      display: block;
+      margin: 10px auto;
+   }
+
+   .container .form-control input[type="submit"]{
+      width: 100px;
+   }
+
+   .container  #display{
+      width: 80%;
+      height: 40px;
+      padding: 5px;
+      font-size: 18px;
+      display: block;
+      margin: 10px auto;
+      border: 2px solid #000;
+   }
+ </style>
+</head>
+<body>
+    
+ <div class="container">
+     <div class="form-control">
+          <input id="number1" type="number" placeholder="Enter your first number" value="0">
+     </div>
+     <div class="form-control">
+      <input id="number2" type="number" placeholder="Enter your second number" value="0">
+    </div>
+   <div class="form-control">
+    <input onclick="Addition()"  type="submit" value="Add">
+  </div>
+    <p id="display" ></p>
+ </div>
+   
+<script src="events.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Working with javascript arrays</title>
+</head>
+<body>
+ 
+
+ <script>
+    let name = "Ebuka";
+    let age  = 15;
+    let height = 180;
+    let occupation = "Student";
+    let personsData = ["Ebuka",15,180,"Student"];
+    // console.log(personsData)
+    let studentData = [
+     ["Emeka","Ikem","Max"],
+     ["Romeo","Prince"],
+     ["EEEE","WER","oPE"],
+     ["Wem","WEE","Rem"]
+    ];
+
+
+    // let arrayX = new Array();
+    // let stringValue = studentData.toString();
+    let stringValue = "";
+    for(let x = 0; x < studentData.length ; x++){
+     stringValue += studentData[x].join(" ")+" ";
+         // console.log(stringValue);
+
+    }
+
+    // for(let x = 0; x < studentData.length ; x++){
+    
+    //    if(x == 0){
+    //     console.log(studentData[x]);
+    //     delete studentData[x][1];
+    //     console.log(studentData[x]);
+    //     let u = studentData[x].sort();
+    //     u.pop();
+
+    //     console.log(u);
+
+    //     break;
+    //    }
+    
+
+    // }
+    // console.log(stringValue)
+ </script>
+</body>
+</html>

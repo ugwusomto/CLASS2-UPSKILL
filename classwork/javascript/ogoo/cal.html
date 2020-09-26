@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cal.css">
+    
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container"> 
+        <div class="data">
+                <div class="display">
+                    <h2>Standard Calculator</h2>
+                    <form>
+                        <input id="number1"  type="text"  value="0"><br><br>
+                        <input id="number2"  type="text" value="0">
+                    </form>   
+                    <div>
+                        <p id="output" ></p>  
+                    </div>
+                
+            </div>
+       
+            <div class="row">
+                <button onclick="HandlePadClicked(7)">7</button>
+                <button onclick="HandlePadClicked(8)">8</button>
+                <button onclick="HandlePadClicked(9)">9</button>
+                <button id="_add" value="+">+</button>
+            </div>
+            <div class="row">
+                <button onclick="HandlePadClicked(4)">4</button>
+                <button onclick="HandlePadClicked(5)">5</button>
+                <button onclick="HandlePadClicked(6)">6</button>
+                <button onclick="Subtraction()" value="-">-</button>
+            </div>
+
+            <div class="row">
+                <button onclick="HandlePadClicked(1)">1</button>
+                <button onclick="HandlePadClicked(2)">2</button>
+                <button onclick="HandlePadClicked(3)">3</button>
+                <button onclick="Multiplication()" value="*">*</button>
+            </div>
+            <div class="row">
+                <button onclick="HandlePadClicked(0)">0</button>
+                <button onclick="HandlePadClicked(.)">.</button>
+                <button onclick="Division()" value="/">/</button>
+                <button class="equal" >=</button>
+            </div>
+           
+        </div>
+    </div>
+    <script  src="cal.js"></script>
+</body>
+</html>
